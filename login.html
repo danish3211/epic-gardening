@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" type="image"  href="images/logo-removebg-preview.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="form.css">
+    
+<!-- Bootstrap link css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- bootstap4 js link -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<!-- Font Awsome Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+   
+     
+    <!-- ***** Header Area End ***** -->
+    <div class="container">
+      <div class="card card-container rounded" style="margin-top: 80px; background-color:rgba(0,0,0,0.56); box-shadow: 0 0 6px rgba(0,0,0,0.56);">
+        <h3 class="text-center text-light">Login</h3>
+        <p id="profile-name" class="profile-name-card"></p>
+        <form class="form-signin" method="post">
+          <span id="reauth-email" class="reauth-email"></span>
+
+          <input
+            type="text"
+            id="inputEmail"
+            name="username"
+            class="form-control"
+            placeholder="username"
+            required
+            autofocus
+            autocomplete="off"
+          />
+
+          <!-- <input type="Email" id="inputEmail"  name="username" class="form-control" 
+                placeholder="Email" required autofocus autocomplete="off" > -->
+
+          <input
+            type="password"
+            id="inputPassword"
+            name="password"
+            class="form-control"
+            placeholder="Password"
+            required
+          />
+          <!-- <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div> -->
+          <a
+            href=""
+            class="w-100 btn btn-lg btn-primary btn-block btn-signin"
+            type="submit"
+            name="login"
+          
+            >Login</a
+          >
+        </form>
+        <!-- /form -->
+         
+  <a href="#" class="forgot-password"> Forgot the password? </a>
+  <a href="adminlogin.html" class="forgot-password"> login as admin </a>
+  
+      </div>
+      <!-- /card-container -->
+    </div>
+    <!-- /container -->
+
+
+</body>
+</html>
